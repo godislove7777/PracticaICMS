@@ -22,7 +22,7 @@ public class InvoiceRestController {
 
     @GetMapping("/{id}")
     public String get(@PathVariable String id) {
-      return "Hola "+id;
+      return "Hola rama event "+id;
     }
 
 
